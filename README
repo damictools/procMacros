@@ -1,0 +1,15 @@
+This macros automate the processing of the RAW data
+
+Batch use:
+  ./doAllParams.sh <RAW_DATA_DIRs> <OUT_BASE_DIR> <optional CONFIG_FILE>
+
+Requirements:
+1. have the following damic tools compiled and ready to run (they are all available at https://github.com/damictools)
+   * checkConsistencyAndComputeMedian
+   * extract
+   * makeMask
+   * reduceNoise
+   * subtractImages
+   * subtractOverscan
+   * trimSide
+2. set the environmental variable DAMIC_SOFT_ROOT (directory in wich all the damic tools are located)
