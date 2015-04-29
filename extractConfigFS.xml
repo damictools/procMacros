@@ -1,0 +1,37 @@
+
+
+<sigma
+  default="35"
+  
+  ext3="35"
+  ext6="24"
+  ext7="23"
+/>
+
+<calibration
+  default="2.6775e-4"
+
+  ext3="2.906e-4"
+  ext5="2.635e-4"
+  ext6="2.725e-4"
+  ext7="3.053e-4"
+
+/>
+
+
+<thr
+  seed="3"
+  add="3"
+  skirtSize="3"
+/>
+
+<extra
+  saveTracks="1"
+  saveTrackCuts="n0>0"
+/> 
+  
+
+<systemConfig
+  stackSize="256"
+  hitMaxSize="5000"
+/>
